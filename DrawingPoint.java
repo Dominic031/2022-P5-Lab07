@@ -13,9 +13,9 @@ public class DrawingPoint extends Applet {
         Tower.drawDoor(g);
         Tower.drawDoorKnob(g);
 
-        Sky.drawSun(g);
-        Sky.drawClouds(g);
-        Sky.drawBirds(g);
+        BgAdd.drawSun(g);
+        BgAdd.drawClouds(g);
+        BgAdd.drawTree(g);
 
 
 

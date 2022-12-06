@@ -12,13 +12,18 @@ public class Tower {
         g.fillRect(400,250,250,50);
         g.fillRect(400,175,250,50);
         g.fillRect(400,325,250,50);
+        g.fillRect(400,325,250,50);
+
     }
 
     public static void drawDoor(Graphics g){
-
+        g.setColor(new Color(245,245,240));
+        g.fillRect(500,425,50,100);
     }
 
     public static void drawDoorKnob(Graphics g){
+        g.setColor(new Color(191,167,133));
+        g.fillOval(535,465,10,10);
 
     }
 
